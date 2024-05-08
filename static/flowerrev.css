@@ -1,0 +1,81 @@
+:root {
+    font-size: 20px;
+    font-family: Daydream;
+}
+@font-face {
+    font-family: Daydream;
+    src: url("../static/Daydream.ttf");
+}
+
+canvas {
+    background-color: black;
+    border: 20px black solid;
+    border-image: url("../static/border.png") 50;
+    border-image-repeat: repeat;
+    display: block;
+    margin: 1em auto;
+    margin-top: 0.2em;
+}
+
+html {
+    background-color: rgb(168, 200, 202);
+}
+
+a {
+    list-style-type: none;
+    color: white;   
+}
+
+#score{
+    position: absolute;
+    margin-top: 3em;
+    margin-left:  23em;
+    color:white;
+}
+img {
+    margin: 1em auto;
+    display: block;
+ }
+
+body {
+    margin:0;
+}
+
+#outcome{
+    position:absolute;
+    color:rgb(255, 255, 255);
+    margin-top: 5em;
+    margin-left: 40.5em;
+    padding-bottom: 20em;
+    padding-top: 1em;
+    padding-right: 10em;
+}
+
+#retry {
+    position:absolute;
+    margin-left: 70em;
+    margin-top: 3em;
+}
+
+#start {
+    background-image: url('./startingwallpaper.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    font-size: 26px;
+    color:rgb(229, 255, 31);
+    margin-top: 14em;
+    margin-left: 35em ;
+    margin-bottom: 3em;
+    position:absolute;
+}
+
+#manual {
+    position:absolute;
+    margin-top: 20em;
+    color:white;
+    text-align: center;
+    margin-left: 29em;
+}
